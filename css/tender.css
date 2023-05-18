@@ -28,13 +28,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color: #E48A4F;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #E48A4F;
 }
 h1,
 h2,
@@ -229,7 +229,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/tender/banner.png');
+  background-image: url('../img/tender/banner2.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position-y: -30px;
@@ -242,13 +242,13 @@ header {
 }
 header .intro-text {
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 22px;
-  line-height: 22px;
+  font-size: 28px;
+  line-height: 28px;
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
@@ -261,14 +261,14 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 100px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 60px;
+    line-height: 60px;
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
@@ -279,26 +279,29 @@ header .intro-text .intro-heading {
     line-height: 75px;
     margin-bottom: 50px;
   }
+
+  h3.section-subheading {
+    font-size: 20px !important;
+  }
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
 }
-section h3.section-subheading {
+h3.section-subheading {
   font-size: 16px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: 75px;
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 50px 0;
   }
 }
 .service-heading {
@@ -729,23 +732,6 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
-}
-::-moz-selection {
-  text-shadow: none;
-  background: #fed136;
-}
-::selection {
-  text-shadow: none;
-  background: #fed136;
-}
-img::selection {
-  background: transparent;
-}
-img::-moz-selection {
-  background: transparent;
-}
-body {
-  webkit-tap-highlight-color: #fed136;
 }
 object {
   pointer-events: none;

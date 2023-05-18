@@ -28,13 +28,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #cca300;
+  color: #E48A4F;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #e6b800;
+  color: #E48A4F;
 }
 h1,
 h2,
@@ -729,23 +729,6 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
-}
-::-moz-selection {
-  text-shadow: none;
-  background: #fed136;
-}
-::selection {
-  text-shadow: none;
-  background: #fed136;
-}
-img::selection {
-  background: transparent;
-}
-img::-moz-selection {
-  background: transparent;
-}
-body {
-  webkit-tap-highlight-color: #fed136;
 }
 object {
   pointer-events: none;
