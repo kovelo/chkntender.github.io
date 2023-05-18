@@ -1,0 +1,45 @@
+<script>
+function redirectByOS() {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    if (/android/i.test(userAgent)) {
+        window.location.href = "https://play.google.com/store/apps/details?id=com.kvl.chickentender";
+    } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        window.location.href = "https://apps.apple.com/us/app/id1514175364";
+    } else {
+        window.location.href = "https://www.chickentenderapp.com";
+    }
+}
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="theme-color" content="#222222">
+        <meta name="apple-itunes-app" content="app-id=1514175364">
+        <link rel="icon" href="/img/tender/favicon.ico" />
+        <link rel="apple-touch-icon" href="/img/tender/icon.png">
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Chicken Tender" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content="Chicken Tender" />
+        <meta property="og:url" content="https://www.chickentenderapp.com" />
+        <meta property="og:image" content="/img/tender/icon.png" />
+        <meta property="og:description" content="Chicken tender solves the 'What do you want to eat?' fight forever. Play with your friends to finally decide on where to eat." />
+
+        <!-- Twitter Flags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@ChickenTenderAp" />
+
+        <title>Chicken Tender</title>
+    </head>
+
+    <body onload="redirectByOS()">
+    </body>
+</html>
