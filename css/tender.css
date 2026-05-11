@@ -910,13 +910,8 @@ footer .copyright {
 .footer-logo {
   height: 36px;
   width: auto;
-  opacity: 0.7;
   -webkit-transition: opacity 0.2s ease;
   transition: opacity 0.2s ease;
-}
-
-.footer-logo:hover {
-  opacity: 1;
 }
 
 .footer-links {
